@@ -1,0 +1,59 @@
+{
+  "total_count": 5,
+  "success_count": 5,
+  "error_count": 0,
+  "success_rate": 1.0,
+  "keyword_coverage": 1.0,
+  "keyword_evaluated_count": 5,
+  "source_hit_rate": 1.0,
+  "source_evaluated_count": 5,
+  "answer_similarity_mean": null,
+  "similarity_evaluated_count": 0,
+  "latency_seconds": {
+    "p50": 5.069999997431296e-05,
+    "p95": 0.0017403399999238896
+  },
+  "backend_modes": {
+    "demo": 5
+  },
+  "retrieval_backends": {
+    "lexical_demo": 5
+  },
+  "generation_modes": {
+    "extractive_demo": 5
+  },
+  "seed": 42,
+  "seed_scope": "Python random; backend determinism is not guaranteed",
+  "metric_definitions": {
+    "keyword_coverage": "每题预期关键词在回答中出现的比例，再按已标注题目平均；失败计 0",
+    "source_hit_rate": "预期来源中至少一个文件名出现在引用中的题目比例；失败计 0",
+    "answer_similarity_mean": "可选句向量余弦相似度；不是医学准确率；失败计 0",
+    "denominators": "每项指标使用具备该项标注的全部题目数，包含失败题；无标注项为 null",
+    "latency_seconds": "全部 Pipeline.chat 调用（含失败）的端到端耗时；不含相似度打分时间"
+  },
+  "created_at_utc": "2026-10-10T15:37:10.218444+00:00",
+  "dataset_path": "examples\\eval_demo.jsonl",
+  "dataset_sha256": "d7ad4b1b3b0bec4df96754da46497d3aa7e488ef0623dd06ba84e6cdbfc4c9b3",
+  "configuration": {
+    "mode": "demo",
+    "data_dir": "data",
+    "demo_knowledge_path": "examples/demo_knowledge.jsonl",
+    "embedding_model": "BAAI/bge-small-zh-v1.5",
+    "reranker_model": "BAAI/bge-reranker-base",
+    "llm_model": "glm-4",
+    "collection": "dr_screening_knowledge",
+    "request_timeout": 90.0,
+    "demo_knowledge_sha256": "d66745dc6effd707aa67308ff4c753457d35afa0cbfbbcd7cfeb96d3f55afaf7",
+    "endpoint_uris_recorded": false,
+    "limit": null,
+    "seed": 42,
+    "similarity_model": null,
+    "chat_parameters": {
+      "retrieval_top_k": 10,
+      "final_top_k": 3,
+      "use_rerank": true,
+      "chunk_chars": 400,
+      "max_tokens": 512
+    }
+  }
+}

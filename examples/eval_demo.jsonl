@@ -1,0 +1,5 @@
+{"id":"demo-01","question":"如何根据引用找到原始资料？","expected_keywords":["文件名","页码","来源"],"expected_sources":["人工样例_平台使用说明.pdf"]}
+{"id":"demo-02","question":"文献检索如何工作？","expected_keywords":["检索","来源"],"expected_sources":["人工样例_平台使用说明.pdf"]}
+{"id":"demo-03","question":"图片引用代表什么？","expected_keywords":["图引用","图片"],"expected_sources":["人工样例_图引用说明.pdf"]}
+{"id":"demo-04","question":"初次检索数量和最终来源数量有什么区别？","expected_keywords":["候选文本","匹配程度"],"expected_sources":["人工样例_检索参数说明.pdf"]}
+{"id":"demo-05","question":"示例模式是否调用大模型？","expected_keywords":["示例模式","摘录"],"expected_sources":["人工样例_运行模式说明.pdf"]}

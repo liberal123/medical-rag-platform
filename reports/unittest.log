@@ -1,0 +1,45 @@
+test_absolute_image_inside_root_is_published_as_relative_url (test_api.APITests.test_absolute_image_inside_root_is_published_as_relative_url) ... ok
+test_chat_includes_sources_mode_and_safe_image_url (test_api.APITests.test_chat_includes_sources_mode_and_safe_image_url) ... ok
+test_demo_page_is_local_and_has_accessible_question_input (test_api.APITests.test_demo_page_is_local_and_has_accessible_question_input) ... ok
+test_empty_answer_is_not_success (test_api.APITests.test_empty_answer_is_not_success) ... Query failed (ValueError)
+ok
+test_image_endpoint_serves_only_images_inside_root (test_api.APITests.test_image_endpoint_serves_only_images_inside_root) ... ok
+test_image_symlink_outside_root_is_rejected (test_api.APITests.test_image_symlink_outside_root_is_rejected) ... ok
+test_invalid_inputs_do_not_call_pipeline (test_api.APITests.test_invalid_inputs_do_not_call_pipeline) ... ok
+test_live_health_does_not_claim_dependencies_ready (test_api.APITests.test_live_health_does_not_claim_dependencies_ready) ... ok
+test_missing_or_escaping_image_is_omitted_from_reference (test_api.APITests.test_missing_or_escaping_image_is_omitted_from_reference) ... ok
+test_pipeline_errors_are_not_successful_answers (test_api.APITests.test_pipeline_errors_are_not_successful_answers) ... Query failed (RuntimeError)
+ok
+test_pipeline_is_closed_on_shutdown (test_api.APITests.test_pipeline_is_closed_on_shutdown) ... ok
+test_demo_explicitly_labels_generation_without_calling_models (test_core.CoreTests.test_demo_explicitly_labels_generation_without_calling_models) ... ok
+test_demo_retrieval_ranks_relevant_evidence_and_preserves_metadata (test_core.CoreTests.test_demo_retrieval_ranks_relevant_evidence_and_preserves_metadata) ... ok
+test_index_build_preserves_reference_fields_and_dimension (test_core.CoreTests.test_index_build_preserves_reference_fields_and_dimension) ... ok
+test_index_refuses_existing_collection_before_embedding (test_core.CoreTests.test_index_refuses_existing_collection_before_embedding) ... ok
+test_invalid_parameters_are_rejected_before_loading_models (test_core.CoreTests.test_invalid_parameters_are_rejected_before_loading_models) ... ok
+test_live_generation_failure_is_not_replaced_with_demo (test_core.CoreTests.test_live_generation_failure_is_not_replaced_with_demo) ... ok
+test_live_rerank_reorders_evidence_and_cites_exact_prompt (test_core.CoreTests.test_live_rerank_reorders_evidence_and_cites_exact_prompt) ... ok
+test_llm_http_error_is_explicit_and_does_not_leak_response (test_core.CoreTests.test_llm_http_error_is_explicit_and_does_not_leak_response) ... ok
+test_llm_request_uses_configured_model_and_grounded_prompt (test_core.CoreTests.test_llm_request_uses_configured_model_and_grounded_prompt) ... ok
+test_malformed_jsonl_reports_line (test_core.CoreTests.test_malformed_jsonl_reports_line) ... ok
+test_milvus_search_uses_dense_vectors_and_preserves_image_metadata (test_core.CoreTests.test_milvus_search_uses_dense_vectors_and_preserves_image_metadata) ... ok
+test_no_evidence_does_not_call_live_model (test_core.CoreTests.test_no_evidence_does_not_call_live_model) ... ok
+test_reranker_orders_by_predicted_scores (test_core.CoreTests.test_reranker_orders_by_predicted_scores) ... ok
+test_settings_use_environment_and_reject_invalid_mode (test_core.CoreTests.test_settings_use_environment_and_reject_invalid_mode) ... ok
+test_invalid_windows_rejected_even_when_text_empty (test_ingest_eval.ChunkingTests.test_invalid_windows_rejected_even_when_text_empty) ... ok
+test_no_pdf_fails_without_creating_indexes (test_ingest_eval.ChunkingTests.test_no_pdf_fails_without_creating_indexes) ... ok
+test_overlap_windows_stop_at_the_final_tail (test_ingest_eval.ChunkingTests.test_overlap_windows_stop_at_the_final_tail) ... ok
+test_cli_closes_pipeline_when_scorer_initialization_fails (test_ingest_eval.EvaluationTests.test_cli_closes_pipeline_when_scorer_initialization_fails) ... ok
+test_cli_records_effective_parameters_and_closes_pipeline (test_ingest_eval.EvaluationTests.test_cli_records_effective_parameters_and_closes_pipeline) ... ok
+test_failed_questions_remain_in_metric_denominators (test_ingest_eval.EvaluationTests.test_failed_questions_remain_in_metric_denominators) ... ok
+test_input_hash_limit_and_existing_output_are_checked (test_ingest_eval.EvaluationTests.test_input_hash_limit_and_existing_output_are_checked) ... ok
+test_public_configuration_hashes_demo_knowledge_without_secrets (test_ingest_eval.EvaluationTests.test_public_configuration_hashes_demo_knowledge_without_secrets) ... ok
+test_similarity_failure_does_not_disappear_from_denominator (test_ingest_eval.EvaluationTests.test_similarity_failure_does_not_disappear_from_denominator) ... ok
+test_source_matching_accepts_legacy_fields_and_windows_paths (test_ingest_eval.EvaluationTests.test_source_matching_accepts_legacy_fields_and_windows_paths) ... ok
+test_unannotated_metrics_are_null (test_ingest_eval.EvaluationTests.test_unannotated_metrics_are_null) ... ok
+test_scanned_page_without_text_keeps_image_but_skips_index_row (test_ingest_eval.PdfIngestionTests.test_scanned_page_without_text_keeps_image_but_skips_index_row) ... ok
+test_text_images_and_source_pages_are_traceable (test_ingest_eval.PdfIngestionTests.test_text_images_and_source_pages_are_traceable) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.517s
+
+OK

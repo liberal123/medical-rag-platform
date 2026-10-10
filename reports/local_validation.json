@@ -1,0 +1,46 @@
+{
+  "created_at_utc": "2026-10-10T15:37:11.083910+00:00",
+  "python": "3.12.13",
+  "platform": "Windows 11",
+  "packages": {
+    "fastapi": "0.115.14",
+    "uvicorn": "0.35.0",
+    "httpx": "0.28.1",
+    "pydantic": "2.14.0",
+    "PyMuPDF": "1.26.7",
+    "python-dotenv": "1.2.4"
+  },
+  "tests": {
+    "run": 38,
+    "skipped": 0,
+    "failures": 0,
+    "errors": 0
+  },
+  "http_smoke": "passed",
+  "demo_evaluation": {
+    "total": 5,
+    "success": 5,
+    "errors": 0
+  },
+  "gpu_live_validation": false,
+  "browser_visual_validation": false,
+  "source_sha256": {
+    "examples/demo_knowledge.jsonl": "d66745dc6effd707aa67308ff4c753457d35afa0cbfbbcd7cfeb96d3f55afaf7",
+    "examples/eval_demo.jsonl": "d7ad4b1b3b0bec4df96754da46497d3aa7e488ef0623dd06ba84e6cdbfc4c9b3",
+    "examples/workflow.svg": "e10e85142cbf3d150426c492c33c8fb184ced92f4836ff357fcca5798170ab50",
+    "requirements.txt": "3b72cf470164313d792f4c7cb118577148a901b6c93d9a9e4a6061d0d59f5d93",
+    "src/medical_rag/__init__.py": "c6cad7d46269d70e77e869ac10b5a124e23b618735a9f71d83a690e786bbbc0a",
+    "src/medical_rag/app.py": "f7dd97b5c1542b23bb4ce0f457ae57e00a54754da99551df55b09d1c07f5947b",
+    "src/medical_rag/build_index.py": "ab5ce8f4c2e0c53a9459590893d66eeba573840b4f7f5fd80f6f2899fac4cb68",
+    "src/medical_rag/config.py": "49fc9baf4c52ae2f153e817af3eefe24fa4e1b7f163235ebf15edae459679a22",
+    "src/medical_rag/evaluate.py": "38acee3708248f3db51ad9f86c4ce944f55f7520fe1e68f4975bbe1b96e64d45",
+    "src/medical_rag/ingest.py": "1a6390346218063d96ba71e3dea078a6e3352ddb0af1894707db09a2bdf39d42",
+    "src/medical_rag/llm.py": "57166d1621232a2cad55f525cfbf3a8366e8b0d5cb69953cd1800a44edd92ab2",
+    "src/medical_rag/pipeline.py": "8dfebd427dc34898dbbc9349f2f77589e527edfd70c9c9ad690ec5ffdf02c825",
+    "src/medical_rag/retrieval.py": "68f182bbb3b76f4a1a060afee435a3cc4d80493cb57cfe50944f05df9431361e",
+    "tests/test_api.py": "a1e79c8823fd3f9ac4405ca8ccd6e245db59e7423aa78213184f69fa773f56a8",
+    "tests/test_core.py": "8d9ad39cc7083e9e57e429a9835929a0b46576f7d4fb02ecb2e8bf4d48449e8d",
+    "tests/test_ingest_eval.py": "3cbac59c09f315be464a6db7e681d8217b7646ec3c6f5c150a3d968222ac155e",
+    "web/index.html": "0de5f8bb74d7bf5d80e7a2e91504412a580b4920b75e5485b9196520254b41a9"
+  }
+}

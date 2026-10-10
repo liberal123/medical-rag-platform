@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">检索与来源追溯流程</title>
+  <desc id="desc">用户问题经过文献检索和候选重排，形成带来源的回答。此图是人工绘制的工程流程示意。</desc>
+  <rect width="960" height="240" rx="18" fill="#f3f8f8"/>
+  <g font-family="Microsoft YaHei, sans-serif" text-anchor="middle">
+    <text x="480" y="40" fill="#284b54" font-size="19">检索与来源追溯 · 人工流程示意</text>
+    <g fill="#fff" stroke="#b5cdcd" stroke-width="2">
+      <rect x="28" y="82" width="176" height="86" rx="12"/>
+      <rect x="270" y="82" width="176" height="86" rx="12"/>
+      <rect x="512" y="82" width="176" height="86" rx="12"/>
+      <rect x="754" y="82" width="176" height="86" rx="12"/>
+    </g>
+    <g fill="#1d5960" font-size="20">
+      <text x="116" y="132">文本问题</text>
+      <text x="358" y="132">文献检索</text>
+      <text x="600" y="132">候选重排</text>
+      <text x="842" y="132">回答与来源</text>
+    </g>
+    <g fill="#578587" font-size="28">
+      <text x="238" y="133">→</text><text x="480" y="133">→</text><text x="722" y="133">→</text>
+    </g>
+    <text x="480" y="210" fill="#60777e" font-size="15">文件名 · 页码 · 文本摘录 · 关联图示</text>
+  </g>
+</svg>
